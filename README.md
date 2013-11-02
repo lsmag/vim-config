@@ -1,11 +1,22 @@
-My Vim files & plugins
-======================
+vimfiles
+========
+
+How to install
+--------------
+
+Because of [YouCompleteMe][1] plugin you need to make sure you have Vim > 7.3.584, 
+I had to [compile][2].
+
+To download and install this repository, follow these steps:
+
+    $ git clone https://github.com/lsmag/vim-config ~/.vim
+    $ cd ~/.vim
+    $ git submodule update --init --recursive
+    $ ln -s ~/.vim/.vimrc ~/.vimrc
+    $ ln -s ~/.vim/.gvimrc ~/.gvimrc
+
+You also need to follow [these instructions][1] in order to install YouCompleteMe.
 
 
-Which plugins I use
-
-
-What to do to install
- - Vim 7.3.x +
- - submodule init
- - YouCompleteMe submodule init + make
+[1]: https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation
+[2]: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source
