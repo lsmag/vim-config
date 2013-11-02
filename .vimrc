@@ -54,3 +54,16 @@ let g:ctrlp_show_hidden=1
 
 let g:airline_powerline_fonts=1
 set laststatus=2
+
+" easily toggle number+relativenumber for awesome hybrid mode
+function! RelNumberToggle()
+    if(&relativenumber == 1)
+        set nonumber
+        set norelativenumber
+    else
+        set number
+        set relativenumber
+    endif
+endfunc
+
+nnoremap <F3> :call RelNumberToggle()<CR>
