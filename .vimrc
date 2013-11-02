@@ -15,7 +15,7 @@ set softtabstop=4
 set shiftround
 set expandtab    " spaces, not tabs
 set backspace=indent,eol,start    " backspace through everythin in insert mode
-set colorcolumn=80,100
+let &colorcolumn="80,".join(range(100, 999), ",")
 set cursorline    " highlights the current line
 set hidden    " to switch buffers without have to save the current
 set autochdir
