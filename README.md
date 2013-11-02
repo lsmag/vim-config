@@ -5,7 +5,7 @@ How to install
 --------------
 
 Because of [YouCompleteMe][1] plugin you need to make sure you have Vim > 7.3.584, 
-I had to [compile][2].
+The compile instructions are [here][2].
 
 To download and install this repository, follow these steps:
 
@@ -17,6 +17,9 @@ To download and install this repository, follow these steps:
 
 You also need to follow [these instructions][1] in order to install YouCompleteMe.
 
+Finally, I use [Meslo font][3] in GVim, you might want to install it.
+
 
 [1]: https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation
 [2]: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source
+[3]:
