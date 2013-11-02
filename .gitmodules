@@ -1,0 +1,27 @@
+[submodule "bundle/base16-vim"]
+	path = bundle/base16-vim
+	url = git@github.com:chriskempson/base16-vim.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "bundle/ctrp.vim"]
+	path = bundle/ctrp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "bundle/vim-css-color"]
+	path = bundle/vim-css-color
+	url = git@github.com:skammer/vim-css-color.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
