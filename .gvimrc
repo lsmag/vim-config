@@ -1,8 +1,7 @@
 set background=dark
 colorscheme base16-tomorrow
 
-set guifont=Meslo\ LG\ S\ for\ Powerline
-let g:airline_powerline_symbols=1
+set guifont=Meslo\ LG\ S\ for\ Powerline\ 11
 
 set guioptions=aem
 set guioptions-=T

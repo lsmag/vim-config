@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 let $VIMHOME=$HOME."/.vim"
 let mapleader=","
 
@@ -36,8 +38,6 @@ nnoremap ; :
 
 colorscheme desert
 
-set laststatus=2
-
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
 map <leader>w :w<cr>
@@ -50,4 +50,7 @@ let g:netrw_altv=1
 let g:netrw_preview=1
 set autochdir
 
-execute pathogen#infect()
+let g:ctrlp_show_hidden=1
+
+let g:airline_powerline_fonts=1
+set laststatus=2
